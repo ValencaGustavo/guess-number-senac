@@ -29,6 +29,10 @@ html {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
 }
 
+#inputNumero {
+    border-radius: 12%;
+}
+
 .container input {
     background-color: transparent;
     border: none;

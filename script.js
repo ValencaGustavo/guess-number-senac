@@ -8,12 +8,12 @@ function checkrandom() {
 
     randomnumber = parseInt(Math.random() * 101)
 
-    console.log('numero: ' + randomnumber);
+    console.log('Número: ' + randomnumber);
 }
 
 checkrandom();
 
-function verifynumber(teste) {
+function verifynumber() {
     var numero = document.getElementById('inputNumero').value
 
     if(numero > 100 || numero < 0) {
