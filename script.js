@@ -2,10 +2,7 @@ var randomnumber = 0;
 var tentativas = 0;
 
 function checkrandom() {
-    var elemento = document.getElementById('inputNumero').value
-
-    elemento = ''
-
+    
     randomnumber = parseInt(Math.random() * 101)
 
     console.log('Número: ' + randomnumber);
@@ -30,3 +27,5 @@ function verifynumber() {
         alert(`Parabéns, você acertou em ${tentativas} tentativas!`)
     }
 }
+
+document.getElementById('botao').addEventListener('click', verifynumber);
